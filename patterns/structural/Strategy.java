@@ -37,9 +37,9 @@ class Cart {
 
  class Main {
     public static void main(String[] args) {
-        NetBankingPayment netBankingPayment = new NetBankingPayment();
+        PaymentStrategy paymentStrategy = new NetBankingPayment();
 
         Cart cart = new Cart();
-        cart.checkout(netBankingPayment);
+        cart.checkout(paymentStrategy);
     }
  }
