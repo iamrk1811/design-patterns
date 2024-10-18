@@ -11,18 +11,18 @@
  * 
  * SOLID:
  * 
- * S (single responsiblity principle)
- * -> A class should have a single, well defined responsiblity or job.
+ * --- S: (single responsiblity principle)
+ * a class should have a single, well defined responsiblity or job.
  * 
- * O: (open-closed principle)
- * -> Open for extension, but closed for modification
+ * --- O: (open-closed principle)
+ * open for extension, but closed for modification
  * 
- * L: (liskob substitution principle)
- * -> since child inherit parent, child have to be direct substitute.
+ * --- L: (liskob substitution principle)
+ * since child inherit parent, child have to be direct substitute.
  * 
- * I: (interface segregation principle)
- * -> child shouldn't be force to implement something that they don't require.
+ * --- I: (interface segregation principle)
+ * child shouldn't be force to implement something that they don't require.
  * 
- * D: (dependency inversion principle)
- * -> depend upon abstraction (interface) instead of concrete classes.
+ * --- D: (dependency inversion principle)
+ * depend upon abstraction (interface) instead of concrete classes.
  */
