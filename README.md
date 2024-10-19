@@ -1,2 +1,2 @@
 ### Repo for quick pattern revision, without extra polution.
-Note: Always remember don't focus on the exact implementation; if your solution fulfills the pattern's purpose, then your approach is correct
+Note: Always remember don't focus on the exact implementation; if your solution fulfills the pattern's purpose, then your approach is correct.
