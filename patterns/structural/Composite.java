@@ -46,7 +46,7 @@ class Folder implements FileSystemComponent {
 }
 
 
- class Main {
+class ClientComposite {
     public static void main(String[] args) {
         File file1 = new File("file1.txt");
         File file2 = new File("file2.java");
@@ -60,4 +60,4 @@ class Folder implements FileSystemComponent {
 
         folder1.view();
     }
- }
+}

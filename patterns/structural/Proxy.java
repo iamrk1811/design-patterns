@@ -40,7 +40,7 @@ class ATM implements Account {
     }
 }
 
-class Main {
+class ClientProxy {
     public static void main(String[] args) {
         ATM atm = new ATM();
         atm.showBalance();

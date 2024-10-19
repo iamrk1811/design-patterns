@@ -38,7 +38,7 @@ class TypeCToNormalCharger {
  * rather than not charging at all.
  */
 
-class Main {
+class ClientAdapter {
     public static void main(String[] args) {
         TypeCToNormalCharger adapter = new TypeCToNormalCharger(new NormalCharger());
         adapter.fastCharge();

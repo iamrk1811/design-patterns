@@ -57,7 +57,7 @@ class ToppingDecorator extends PizzaDecorator {
 }
 
 
-class Main {
+class ClientDecorator {
     public static void main(String[] args) {
         Pizza pizza = new NormalPizza();
 

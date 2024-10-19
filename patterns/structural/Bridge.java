@@ -57,7 +57,7 @@ class Bike extends Vehicle {
     }
 }
 
-class Main {
+class ClientBridge {
     public static void main(String[] args) {
         Vehicle carWithPetrolEngine = new Car(new PetrolEngine());
         carWithPetrolEngine.drive();

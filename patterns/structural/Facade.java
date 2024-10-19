@@ -43,7 +43,7 @@ class ComputerFacade {
     }
 }
 
-class Main {
+class ClientFacade {
     public static void main(String[] args) {
         CPU cpu = new CPU();
         RAM ram = new RAM();
