@@ -59,7 +59,7 @@ class DoubleChecked {
 }
 
 
-class Main {
+class ClientSingleton {
     public static void main(String[] args) {
         DoubleChecked obj = DoubleChecked.getInstance();
     }

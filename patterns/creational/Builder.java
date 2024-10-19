@@ -37,7 +37,7 @@ class Pizza {
 }
 
 
-class Main {
+class ClientBuilder {
     public static void main(String[] args) {
         Pizza pizza = new Pizza.PizzaBuilder()
             .setSouce("red one")

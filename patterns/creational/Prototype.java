@@ -33,7 +33,7 @@ class Circle implements Shape {
     }
 }
 
-class Main {
+class ClientPrototype {
     public static void main(String[] args) {
         Shape circle = new Circle(5);
         Shape circleCopied = circle.clone();

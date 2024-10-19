@@ -5,23 +5,23 @@ package patterns.creational;
  */
 
 
- interface Vehicle {
+interface Vehicle {
     public void drive();
- }
+}
 
- class Car implements Vehicle {
+class Car implements Vehicle {
     @Override
     public void drive() {
         System.out.println("driving car");
     }
- }
+}
 
- class Bike implements Vehicle {
+class Bike implements Vehicle {
     @Override
     public void drive() {
         System.out.println("driving bike");
     }
- }
+}
 
 /*
  * So basically you don't have to worry how a object being created whats the
@@ -29,7 +29,7 @@ package patterns.creational;
  * logic can be much more complex, so if you don't want to expose creational logic
  * this is the pattern you are looking for.
  */
- class VehicleFactory {
+class VehicleFactory {
     public Vehicle getVehicle(int type) {
         if (type == 1) {
             return new Car();
@@ -38,10 +38,10 @@ package patterns.creational;
         }
         return null;
     }
- }
+}
 
 
- class Main {
+class ClientFactory {
     public static void main(String[] args) {
         Vehicle vehicle = new VehicleFactory().getVehicle(1);
         vehicle.drive();

@@ -77,7 +77,7 @@ class View {
 }
 
 
-class Main {
+class ClientAbstractFactory {
     public static void main(String[] args) {
         AndroidFactory androidFactory = new AndroidFactory();
         View v1 = new View();
