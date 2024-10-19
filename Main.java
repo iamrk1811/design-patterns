@@ -3,10 +3,14 @@
  * -> Design patterns are typical solutions to commonly occuring
  * -> problem in software design.
  * 
+ * Benefits of design patterns
+ * 1. Reusability, 2. Flexibility, 3. Communication, 4. Maintainability
+ * 
  * Types of design pattern
  * 1. Creational patterns: Deals with how an object should be created.
  * 2. Structural patterns: Focus on the composition of classes and object.
  * 3. Behavioural patterns: Focus on how objects interact and communicate.
+ * 
  * 
  * 
  * SOLID:

@@ -1,4 +1,4 @@
-package patterns.structural;
+package patterns.behavioural;
 
 /*
  * Strategy: lets you selecting an algorithm's behaviour at runtime.
