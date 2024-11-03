@@ -53,7 +53,7 @@ class JSONProcessor extends DataProcessor {
     
 }
 
-public class TemplateMethod {
+public class ClientTemplateMethod {
     public static void main(String[] args) {
         DataProcessor csv = new CSVProcessor();
         csv.processData();
