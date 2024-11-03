@@ -71,7 +71,7 @@ class Abhinav implements Observer, Viewer  {
     }
 }
 
-class Main {
+class ClientObserver {
     public static void main(String[] args) {
         YouTubeChannel channel = new YouTubeChannel();
 
