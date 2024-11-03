@@ -91,6 +91,11 @@ class MediaPlayer {
 
 class ClientState {
     public static void main(String[] args) {
-        
+        MediaPlayer player = new MediaPlayer();
+
+        player.play();
+        player.pause();
+        player.play();
+        player.stop();
     }
 }
