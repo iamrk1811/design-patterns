@@ -21,7 +21,7 @@
  * --- O: (open-closed principle)
  * open for extension, but closed for modification
  * 
- * --- L: (liskob substitution principle)
+ * --- L: (liskov substitution principle)
  * since child inherit parent, child have to be direct substitute.
  * 
  * --- I: (interface segregation principle)
