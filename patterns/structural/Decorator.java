@@ -47,12 +47,12 @@ class ToppingDecorator extends PizzaDecorator {
 
     @Override
     public int getPrice() {
-        return this.pizza.getPrice() + 10;
+        return super.getPrice() + 10;
     }
 
     @Override
     public String makePizza() {
-        return this.pizza.makePizza() + "topping";
+        return super.makePizza() + "topping";
     }
 }
 
