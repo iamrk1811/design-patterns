@@ -18,7 +18,7 @@ class NormalCharger {
 }
 
 // Adapter class
-class TypeCToNormalCharger {
+class TypeCToNormalCharger implements TypeC {
     private NormalCharger charger;
     TypeCToNormalCharger(NormalCharger charger) {
         this.charger = charger;
